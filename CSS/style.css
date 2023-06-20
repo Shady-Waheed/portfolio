@@ -179,6 +179,7 @@ width: 100px;
     margin-bottom: 5px;
     padding-right: 40px;
     transition: color 0.3s;
+    font-size: 14px;
 }
 .skills-item ul li:hover{
     color: #54c0a1;
