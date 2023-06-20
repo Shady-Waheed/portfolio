@@ -202,10 +202,14 @@ text-align: center;
     flex-wrap: wrap;
     justify-items: center;
 }
+.cer-items h4{
+    font-size: 14px;
+}
 .cer-items:hover p{
     background-color: #0e2025;
     cursor:default;
 }
+
 .cer-item img{
     width: 100%;
     height: 80%;
