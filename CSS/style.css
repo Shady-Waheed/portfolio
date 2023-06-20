@@ -1,0 +1,322 @@
+/* General */
+body {
+    font-family: 'Righteous', cursive, 'Cairo Play', sans-serif, 'Reem Kufi Fun', sans-serif;
+    background-color: #060f08;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fbfefc;
+}
+/* Coontianer */
+.contianer{
+    text-align: center;
+    color: #fbfefc;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+/* Section Header */
+.Section-Header {
+    margin-top: 150px; 
+    text-align: center;
+    margin-bottom: 70px;
+}
+.Section-Header:hover span{
+    width: 100px;
+}
+.Section-Header h2 {
+    color: #fbfefc;
+    margin-bottom: -10px; 
+}
+
+.Section-Header span {
+    display: inline-block;
+    width: 70px;
+    height: 0.5px;
+    background-color: #fbfefc;
+    margin-top: 5px; 
+    transition: width 0.5s;
+}
+
+
+/* NavBar Section */
+.nav-contianer {
+    display: flex;
+    align-items: center; 
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 90%;
+    height: 30px;
+}
+
+.socialLinks {
+    flex: 1;
+    text-align: right;
+}
+
+.siteName {
+    flex: 2;
+    margin-left: 10px;
+}
+
+.nav-contianer .siteName a {
+    font-size: 18px;
+    transition: color 0.5s;
+}
+
+.nav-contianer .siteName a i {
+    padding-left: 7px;
+    color: #54c0a1;
+    transition: color 0.5s;
+}
+.nav-contianer .siteName a:hover i{
+    color: #fbfefc;
+}
+.nav-contianer .siteName a:hover{
+    color: #54c0a1;
+}
+
+.socialLinks ul {
+    margin: 0;
+    list-style: none;
+    margin-left: auto;
+}
+
+.socialLinks ul li {
+    margin-left: 20px;
+    display: inline-block;
+    
+}
+.socialLinks ul li i {
+    color: #fff;
+    transition: color 0.5s;
+}
+
+.socialLinks ul li i.fa-youtube:hover {
+    color: #FF0000;
+}
+
+.socialLinks ul li i.fa-telegram:hover {
+    color: #0088CC;
+}
+
+.socialLinks ul li i.fa-instagram:hover {
+    color: #C13584;
+}
+
+.socialLinks ul li i.fa-twitter:hover {
+    color: #1DA1F2;
+}
+
+.socialLinks ul li i.fa-facebook:hover {
+    color: #1877F2;
+}
+/* About Section */
+section.About{
+    background-image: url(../Images/20230620041118_[fpdl.in]_desktop-source-code-wallpaper-by-computer-language-with-coding-programming_33771-595_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.About-items{
+    display: flex;
+ align-items: center;
+}
+.About-items:hover img{
+    opacity: 1;
+}
+.About-items:hover{
+    cursor: pointer;
+}
+.About-items:hover .paragraph{
+
+    background-color: #0e2025;
+}
+.About-item{
+    flex: 1;
+}
+.About-item img{
+    width: 70%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 0.7;
+    transition: opacity 0.5s;
+    
+    object-fit: cover;
+}
+.About-item.img{
+    height: 400px;
+}
+.paragraph span{
+    color: #54c0a1;
+}
+.About-item p{
+    font-family: 'Cairo Play', sans-serif;
+}
+.paragraph{
+    transition:background-color 0.5s ;
+}
+/* Skills Section */
+.skills-items{
+    display: flex;
+}
+.skills-item{
+    flex: 1;
+    background-color: #0e2025;
+    margin-right:25px;
+    text-align: center;
+}
+.skills-item:hover span{
+width: 100px;
+}
+.skills-item:hover{
+    cursor: pointer;
+}
+.skills-item ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    padding-right: 40px;
+    transition: color 0.3s;
+}
+.skills-item ul li:hover{
+    color: #54c0a1;
+}
+.skills-item span{
+text-align: center;
+    display: inline-block;
+    width: 70px;
+    height: 0.5px;
+    background-color: #fbfefc;
+    transition: width 0.5s;
+}
+.skills-item h3{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+/* Certificat Section */
+.cer-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+}
+.cer-items:hover p{
+    background-color: #0e2025;
+    cursor:default;
+}
+.cer-item img{
+    width: 100%;
+    height: 80%;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.cer-item:hover img{
+    opacity: 1;
+    cursor: pointer;
+}
+.cer-item{
+    flex-basis: 30%;
+    margin-bottom: 35px;
+    margin-right: 3%;
+}
+.cer-item p{
+    width: 100%;
+    height: 100%;
+    margin-top: 40px;
+    transition: background-color 0.4s;
+}
+.haigh{
+    height: 100%;
+}
+/* Projects Section */
+.project-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    flex-basis: 44%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.project-item span{
+    display: inline-block;
+    width: 70px;
+    height: 0.5px;
+    background-color: #fbfefc;
+    margin-top: 5px; 
+    transition: width 0.5s;
+}
+.project-item h4{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+.project-item:hover span{
+    width: 100px;
+}
+.project-item:hover {
+    cursor: pointer;
+}
+.project-item:hover img{
+    scale: 115%;
+}
+.project-item img {
+    width: 100%;
+    height: 100%;
+    transition: scale 500ms;
+}
+/* Contact Section */
+.contact-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.contact-item a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #333;
+    
+    transition: color 0.5s;
+}
+
+.contact-item a i {
+    margin-right: 5px;
+}
+
+.contact-item a:hover {
+    color: #555;
+}
+
+.contact-item:last-child {
+    margin-top: 20px;
+}
+/* Footer */
+footer {
+    background-color: #1e1e1e;
+    margin-top: 90px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+    color: #777;
+}
